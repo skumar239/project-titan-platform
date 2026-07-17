@@ -1,4 +1,4 @@
-📚 Titan Lab 02 – GitHub Actions Fundamentals
+# 📚 Titan Lab 02 – GitHub Actions Fundamentals
 
 # Objective
 
