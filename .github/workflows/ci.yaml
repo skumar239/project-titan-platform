@@ -30,6 +30,10 @@ jobs:
           java -version
           javac -version
 
+      - name: Make Maven Wrapper Executable
+        working-directory: ./healthcare-app
+        run: chmod +x mvnw    
+
       - name: Build Application
         working-directory: ./healthcare-app
         run: ./mvnw clean package
