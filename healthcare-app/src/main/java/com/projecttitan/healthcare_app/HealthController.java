@@ -7,6 +7,6 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "Project Titan Healthcare API is running sucessfully!";
+        return "Project Titan Healthcare API V1 is running sucessfully!";
     }
 }
